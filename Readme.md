@@ -4,11 +4,17 @@
 
 Mostrar graficas en C# usando ```Chart```.
 
-### Chart
+## Chart
 Esta herramienta nos permite mostrar datos en distintos tipos de grafica.
 
-### GroupBox
-El proyecto permite modificar caracteristicas de graficas dividas en dos partes:
+## GroupBox
+El proyecto permite modificar caracteristicas usando **botones** o un **comboBox** de graficas dividas en dos partes:
 
-- 
-#### Botones
+- Apariencia: La herramienta chart cuenta con multiples caracteristicas a modificar esteticamente, pero en este proyecto solo se cambia la visivilidad de las leyendas y el titulo y el tipo de grafica en el que se muestran los datos.
+
+- Datos: 
+
+	- Series: Con esta caracteristica se especifican los datos que se muestran en la grafica.
+
+	- Área: Usado para mostrar varias graficas usando un solo elemento **chart**.
+
